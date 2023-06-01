@@ -46,6 +46,7 @@ function displayJobs(dataBase) {
       languages,
       tools,
     } = dataBase[index];
+    const cardId = createDomElement("li", "card-id", id);
 
     const boxList = createDomElement("li", "boxList");
     const menuInfo = createDomElement("div", "wrapper");

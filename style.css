@@ -47,6 +47,12 @@ body {
   display: flex;
   justify-content: center;
 }
+.boxList:nth-child(1) .wrapper {
+  border-left: 5px solid #5ca5a5;
+}
+.boxList:nth-child(2) .wrapper {
+  border-left: 5px solid #5ca5a5;
+}
 .company {
   font-size: 13px;
   font-weight: 700;
